@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+input[type=text], select {
+
+  padding: 20px 50px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size:20px;
+}
+
+input[type=submit] {
+  
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+
+}
+div {
+  border-radius: 1px;
+  background-color: #f2f2f2;
+  padding: 1px;
+}
+body{
+  background-image: url("colton.jpg");
+}
+
+</style>
+<body>
+
+<div>
+  <form action="index.html">
+<h2>EDIT PROFILE</h2>
+<h2>step2</h2>
+    <label for="fname">Career:</label>
+    <input type="text"  name="Career" placeholder="career">
+    <br>
+
+    <label for="lname">Club:</label>
+    <input type="text" id="Club" name="club" placeholder="Club">
+<br>
+<label for="lname">Bio:</label>
+    <input type="text" id="Bio" name="bio" placeholder="Bio..">
+<br>
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="India">India</option>
+    </select>
+  <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
